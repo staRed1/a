@@ -1,14 +1,23 @@
-export default function App() {
+import React from "react";
 
-  const nome = "João";
-  const sobreNome = "Santos";
-
-  return(
-    <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
-    </div>  
+export default function Footer() {
+  return (
+    <footer>
+      <p>João Arthur</p>
+    </footer>
   );
+  };
 
+  main 
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-}
+import Footer from './footer.jsx'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+    <Footer />
+  </React.StrictMode>,
+)
