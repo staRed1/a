@@ -4,17 +4,7 @@ export default function Main(){
     const [telefone,setTelefone] = useState();
     const [listaContatos,setContatos] = useState([]);
 
-    const registrar = (event) => {
-        event.proventDefault();
-        alert("REGISTRATO COM SUCESSO")
-        setContatos([...listaContatos,
-            {
-                nomeSalvo: nome,
-                telefoneSalvo: telefone
-            }
-        ]);
-    }
-    console.table(listaContatos);
+  
     return(
         <main>
             <form onSubmit={registrar}>
