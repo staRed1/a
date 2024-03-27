@@ -1,10 +1,10 @@
-import Header from "./Components/Header";
-export default function App() {
+export default function Header() {
+
     return(
         <main>
-            <Header/>
-            <Header/>
-            <Header/>
+          <Header>
+            <h1>Agena telefonica</h1>
+          </Header>
         </main>
     )
 }
